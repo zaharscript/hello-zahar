@@ -5,6 +5,6 @@ import React from 'react'
 //     return <h1>Good Day every one</h1>
 // }
 
-const Welcome = () => <h1>Hello Everybody</h1>
+const Welcome = () => <h1><i>Hello Everybody. This part was created With Functional component</i></h1>
 
 export default Welcome
