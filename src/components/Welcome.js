@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { Component } from 'react'
 
+class Welcome extends Component {
+    render(){
+        return <h1>I am {this.props.name} a.k.a {this.props.siblingName}</h1>
+    }
+}
 
-// function Welcome(){
-//     return <h1>Good Day every one</h1>
-// }
-
-const Welcome = () => <h1><i>Hello Everybody. This part was created With Functional component</i></h1>
 
 export default Welcome

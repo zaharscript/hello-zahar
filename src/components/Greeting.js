@@ -1,9 +1,14 @@
 import React, {Component, component} from 'react'
-
-class Greeting extends Component{
-    render() {
-        return <h1>And this part was created with Class component</h1>;
-    }
+const Greeting = (props)=> {
+    console.log(props)
+   return (
+   <div>
+        <h1>I am {props.name} a.k.a {props.siblingName}</h1>
+        {props.children}
+   </div>
+   )
 }
+   
+
 
 export default Greeting;
